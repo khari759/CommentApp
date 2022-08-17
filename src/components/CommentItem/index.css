@@ -1,0 +1,103 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #94a3b8;
+}
+.name-card {
+  display: flex;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 25px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.name-time {
+  display: flex;
+}
+.user-name {
+  margin-right: 30px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 25px;
+}
+.time {
+  font-family: 'Roboto';
+  color: #94a3b8;
+  font-size: 15px;
+  align-self: center;
+}
+.comment {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.Like-icon-container {
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.like {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.liked {
+  font-family: 'Roboto';
+  color: #0ea5e9;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.like-icon {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+.Delete-icon-container {
+  background-color: transparent;
+  border: 0px;
+}

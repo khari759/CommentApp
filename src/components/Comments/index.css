@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  overflow-y: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.input {
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-bottom: 5px;
+  padding: 10px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.btn {
+  background-color: #0284c7;
+  border: 0px;
+  color: #ffffff;
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+.separator {
+  background-color: #cbd2d9;
+  width: 100%;
+  margin-top: 15px;
+}
+.count-card {
+  display: flex;
+  width: 5%;
+}
+.comment-text {
+  align-self: center;
+  margin-left: 15px;
+}
+.comment-list {
+  list-style-type: none;
+}
